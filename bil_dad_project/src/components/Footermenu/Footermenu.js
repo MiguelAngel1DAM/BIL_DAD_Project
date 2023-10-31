@@ -10,13 +10,13 @@ function Footermenu() {
         <>
             <div className="container">
                 <div className="menu">
-                    <Link>
+                    <Link to="/Basepage">
                     <img src={ base } className='database' alt='database'/>
                     </Link>
-                    <Link>
+                    <Link to="/Mainmenu">
                     <img src={ home } className='home' alt='home'/>
                     </Link>
-                    <Link>
+                    <Link to="/serverpage">
                     <img src={ server } className='server' alt='server'/>
                     </Link>
                 </div>

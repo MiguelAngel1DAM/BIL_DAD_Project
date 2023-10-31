@@ -1,0 +1,39 @@
+.container {
+    height: 200px;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vw;
+}
+
+.usericon {
+    font-size: 100px;
+}
+
+.content {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.progresscontainer {
+    justify-content: center;
+    width: 50%;
+    margin: 10px;
+}
+
+.databaseinfo {
+    display: block;
+    width: 100%;    
+    justify-content: center;
+    text-align: center;
+}
+
+.server {
+    text-align: center;
+    margin: 4%;
+}
