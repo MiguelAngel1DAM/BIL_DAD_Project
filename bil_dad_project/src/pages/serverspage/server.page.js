@@ -13,7 +13,9 @@ function serverpage() {
         <>
             <div className="header">
                 <h1>Server</h1>
+                <Link to="/settings">
                 <BiUserCircle className="usericon" />
+                </Link>
             </div>
 
             <div className='content'>

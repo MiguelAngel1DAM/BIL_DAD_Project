@@ -12,32 +12,34 @@ function basepage() {
             <div className="container">
                 <div className="header">
                     <h1>Data bases</h1>
-                    <BiUserCircle className="usericon" />
+                    <Link to="/settings">
+                        <BiUserCircle className="usericon" />
+                    </Link>
                 </div>
 
                 <div className='databaseinfo'>
-                <p>Database 1
-                <Progress percent={0} className='progresscontainer'/>
-                </p>
-                <p>Database 2
-                <Progress percent={10} strokeColor="green" className='progresscontainer'/>
-                </p>
-                <p>Database 3
-                <Progress percent={70} strokeColor="orange" className='progresscontainer'/>
-                </p>
-                <p>Database 4
-                <Progress percent={100} strokeColor="red" status="active" className='progresscontainer'/>
-                </p>
+                    <p>Database 1
+                        <Progress percent={0} className='progresscontainer' />
+                    </p>
+                    <p>Database 2
+                        <Progress percent={10} strokeColor="green" className='progresscontainer' />
+                    </p>
+                    <p>Database 3
+                        <Progress percent={70} strokeColor="orange" className='progresscontainer' />
+                    </p>
+                    <p>Database 4
+                        <Progress percent={100} strokeColor="red" status="active" className='progresscontainer' />
+                    </p>
                 </div>
 
                 <div className='server'>
                     <Link to="/adddatabasepage">
-                    <img src={server} alt='server' />
+                        <img src={server} alt='server' />
                     </Link>
                 </div>
             </div>
 
-            <Footermenu/>
+            <Footermenu />
         </>
     );
 }
